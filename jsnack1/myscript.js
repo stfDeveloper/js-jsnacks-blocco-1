@@ -13,7 +13,7 @@ let somma = 0;
 let inizio = 0;
 
 do{
-    let loop = parseInt(prompt("Inserisci un numero"));
+    let loop = parseInt(prompt("Inserisci un numero")); 
     array.push(loop);somma = somma + array[inizio];inizio++;
 
 } while (somma < 50);
